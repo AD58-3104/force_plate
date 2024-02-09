@@ -9,7 +9,7 @@ import datetime
 from ctypes import *
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import QTimer
-from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 import matplotlib.pyplot as plt
 
 class Window(QtWidgets.QDialog):
